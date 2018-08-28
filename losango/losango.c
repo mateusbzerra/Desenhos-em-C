@@ -3,7 +3,7 @@
 
 int main(){
 	int i,j,spaceTop,spaceBot,auxTop,auxBot,p;
-	int n = 5;
+	int n = 5; //Somente números ímpares
 	spaceTop = ((n-1)/2)-1;
 	for(i=0;i<n;i++){
 		if(i==0 || i==(n-1)){
